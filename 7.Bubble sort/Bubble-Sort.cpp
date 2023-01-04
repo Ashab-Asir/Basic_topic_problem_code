@@ -19,11 +19,12 @@ void bubble_sort(int arr[],int n){
 
 }
 int main(){
-    int n=6;
     int arr[6]={6,7,3,4,1,9};
+    int n=sizeof(arr)/sizeof(arr[0]);
     bubble_sort(arr,n);
     for(int i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";
     }
+
 }
